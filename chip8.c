@@ -53,7 +53,6 @@ const uint8_t fontset[80] = {
     0xF0, 0x80, 0xF0, 0x80, 0x80
 };
 
-// Функция для получения времени в миллисекундах
 uint32_t get_ticks_ms() {
     return SDL_GetTicks();
 }
