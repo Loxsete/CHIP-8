@@ -1,0 +1,9 @@
+Memory: 4096 bytes (0x000 - 0xFFF). Program loads at 0x200.
+Registers: 16 registers (V0-VF, 8-bit). VF - Operation flag.
+I-register: 16-bit, for memory addresses.
+PC: Program Counter, points to current instruction.
+Stack: 16 levels for subroutine calls/returns.
+Timers: Delay timer and Sound timer (8-bit, tick at 60 Hz).
+Screen: 64x32 pixels, monochrome (0=off, 1=on).
+Keyboard: 16 keys (0x0-0xF), mapped to input.
+Opcodes: 2 bytes each, executed at ~200 Hz.
